@@ -1,0 +1,25 @@
+{
+  "name": "translates",
+  "version": "1.0.0",
+  "description": "compare translate service",
+  "main": "index.js",
+  "scripts": {
+    "debug": "NODE_ENV=development node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kheiakiyama/translates.git"
+  },
+  "author": "kheiakiyama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kheiakiyama/translates/issues"
+  },
+  "homepage": "https://github.com/kheiakiyama/translates#readme",
+  "dependencies": {
+    "cognitive-services": "^0.6.1",
+    "dotenv": "^4.0.0",
+    "google-cloud": "^0.57.0"
+  }
+}
